@@ -5,7 +5,7 @@ import urllib.request
 echo "qa qa qa"
 
 if len(sys.argv) != 3:
-    print("Usage: ./currencyrates.py lookup_currency base_currency. Example: ./currencyrates.py cad usd")
+    print("Usage: ./currencyrates.py lookup_currency base_currency. Example: ./currencyrates.py ils usd")
     sys.exit()
 
 currency = sys.argv[1]
