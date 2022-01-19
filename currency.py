@@ -2,6 +2,8 @@ import json
 import sys
 import urllib.request
 
+echo "qa qa qa"
+
 if len(sys.argv) != 3:
     print("Usage: ./currencyrates.py lookup_currency base_currency. Example: ./currencyrates.py cad usd")
     sys.exit()
